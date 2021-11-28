@@ -1,0 +1,14 @@
+import Vue from "vue";
+import Vuex from "vuex";
+import { RemindersModules } from '@/store/modules/Reminders';
+
+Vue.use(Vuex);
+
+export default new Vuex.Store({
+  state: {},
+  mutations: {},
+  actions: {},
+  modules: {
+    reminders: RemindersModules
+  },
+});
